@@ -27,7 +27,7 @@ module.exports = {
                         
                     });
                     //let songName = song.name.toString();
-                    //message.reply(`🎶 **${songName}** added to queue!`)
+                    message.reply(`🎶 Gotchu homie`)
                 } else {
                     message.reply('You need to be in a voice channel to use this command.');
                 }

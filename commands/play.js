@@ -26,9 +26,7 @@ module.exports = {
                             queue.stop();
                         
                     });
-                    //let songName = song.name.toString();
-                    //message.reply(`🎶 **${songName}** added to queue!`)
-                    //currently not working on vultr server
+                    message.reply(`🎶 **${guildQueue.nowPlaying}** added to queue!`)
                     message.reply(`🎶 Gotchu homie `)
                 } else {
                     message.reply('You need to be in a voice channel to use this command.');

@@ -16,7 +16,7 @@ const fs = require('fs');
 const { Player } = require("discord-music-player");
 const player = new Player(client, {
     leaveOnEmpty: true,
-    timeout: 15000
+    timeout: 150000
 });
 
 client.player = player;
